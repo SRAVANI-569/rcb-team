@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image map</title>
+</head>
+    <style>
+        body{
+            text-align: center;
+            
+            display:block;
+            background-color:maroon;
+            height: 500px;
+           
+        }
+        h1{
+            color:aliceblue;
+            margin-bottom:60px;
+        }
+        #logo{
+            padding:30px;
+        }
+        #cup{
+            padding-top:20px;
+        }
+        </style><body>
+    <p><b><h1>WE LOVE 🤍 RCB</h1></b></p>
+     <img src="player.jpg" usemap="#RCB" height="355px"width="474px">
+    <map name="RCB">
+        <area shape="circle" coords="73,65,50" target="_blank" href="https://en.wikipedia.org/wiki/Washington_Sundar">
+        <area shape="circle" coords="174,67,58" target="_blank" href="https://en.wikipedia.org/wiki/Virat_Kohli">
+        <area shape="circle" coords="285,73,59" target="_blank" href="https://en.wikipedia.org/wiki/AB_de_Villiers">
+        <area shape="circle" coords="382,73,52" target="_blank" href="https://en.wikipedia.org/wiki/Dale_Steyn"><br>
+    </map>
+    <div id="logo">
+        <img src="logo.png" usemap="#RCB logo" height="355"width="474">
+        <map name="RCB logo">
+            <area shape="rect" coords="105,3,382,534" target="_blank" href="https://WWW.royalchallengers.com/">      
+          </map>
+    </div>
+    <div id="cup">
+        <img src="cup.jpg">
+    </div>
+
+</body>
+</html>
